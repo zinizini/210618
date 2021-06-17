@@ -4,7 +4,8 @@
  
  <mapper namespace="mm"> 
 	<insert id="memberjoin" parameterType="memberdto">
-		INSERT INTO MEMBER210525(MID, MPASSWORD, MNAME, MEMAIL) VALUES(#{mid}, #{mpassword}, #{mname}, #{memail})
+		INSERT INTO MEMBER210525(MID, MPASSWORD, MNAME, MEMAIL) 
+		VALUES(#{mid}, #{mpassword}, #{mname}, #{memail})
 	</insert>
 	
 	<select id="memberlist" resultType="memberdto">

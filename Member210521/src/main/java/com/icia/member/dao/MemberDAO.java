@@ -10,6 +10,8 @@ import com.icia.member.dto.MemberDTO;
 
 @Repository
 public class MemberDAO {
+	// insert, update,delete => 성공여부(int)
+	// select => 하나냐 여러개냐에 따라
 
 	@Autowired
 	private SqlSessionTemplate sql;

@@ -46,7 +46,7 @@ public class MemberService {
 		
 		// memberList에 DB 조회 결과를 담아서 memberlist.jsp로 이동 
 		mav.addObject("memberList", memberList);
-		mav.setViewName("memberlist1");
+		mav.setViewName("memberlist");
 		
 		return mav;
 	}

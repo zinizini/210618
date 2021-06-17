@@ -9,7 +9,6 @@
 </head>
 <body>
 	<h2>memberview.jsp</h2>
-	<!-- EL(Expression Language) 태그 -->
 	아이디 : ${result.mid} <br>
 	비밀번호 : ${result.mpassword} <br>
 	이름 : ${result.mname} <br>
